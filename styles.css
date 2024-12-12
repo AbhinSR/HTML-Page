@@ -1,0 +1,180 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Header styles */
+.header {
+  background-color: #f8fbff; /* Light blue */
+  border-bottom: 2px solid #e0e0e0;
+  padding: 15px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700; /* Bold for logo */
+  color: #000;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500; /* Medium weight for nav links */
+  color: #000;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.auth-buttons .login {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #007bff; /* Blue */
+}
+
+.auth-buttons .join-us {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007bff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.auth-buttons .join-us:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main content styles */
+.content {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  gap: 20px;
+}
+/* Text container styles */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.training-tagline {
+  font-size: 16px;
+  font-weight: 500;
+  color: #007bff; /* Blue color */
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700; /* Bold */
+  color: #1e293b; /* Dark navy color */
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+  color: #334155; /* Subtle navy/gray */
+  margin-bottom: 25px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-secondary {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #007bff;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 632px;
+height: 491.99px;
+top: 117px;
+left: 742px;
+gap: 0px;
+opacity: 0px;
+}
+
+.text-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
